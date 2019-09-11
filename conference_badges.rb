@@ -20,9 +20,7 @@ def assign_rooms(array)
   new_array2
 end
 
-def printer(array)
-  array = [batch_badge_creator, assign_rooms].flatten
-    array.each do |badge|
-      puts badge
-    end
+def printer(method)
+  array = batch_badge_creator.concat(assign_rooms)
+      puts array
 end
