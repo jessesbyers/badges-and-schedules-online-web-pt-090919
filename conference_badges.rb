@@ -23,10 +23,10 @@ end
 def printer(array)
   new_array1 = batch_badge_creator
   new_array2 = assign_rooms
-    new_array1.each do |badge|
-      puts badge
-      new_array2.each do |room|
-        puts room
+    new_array1.each do |array|
+      puts array
+      new_array2.each do |array|
+        puts array
       end
     end
 end
