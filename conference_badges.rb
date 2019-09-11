@@ -22,7 +22,7 @@ end
 
 def printer(batch_badge_creator)
   batch_badge_creator(new_array1)
-    puts array
+    puts new_array1
   end
   binding.pry
 #  assign_rooms.each do |room|
