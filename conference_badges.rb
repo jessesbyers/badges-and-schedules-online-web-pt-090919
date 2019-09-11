@@ -25,8 +25,8 @@ def printer(batch_badge_creator)
   new_array1.each do |badge|
     puts badge
   end
-  assign_rooms
-  new_array2.each do |room|
-    puts room
-  end
+#  assign_rooms
+#  new_array2.each do |room|
+#    puts room
+#  end
 end
