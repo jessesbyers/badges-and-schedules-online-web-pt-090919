@@ -20,11 +20,10 @@ def assign_rooms(array)
   new_array2
 end
 
-def printer(batch_badge_creator)
+def printer(array)
   batch_badge_creator(array)
     puts array
   binding.pry
-#  assign_rooms.each do |room|
-#    puts room
-#  end
+  assign_rooms(array)
+    puts array
 end
