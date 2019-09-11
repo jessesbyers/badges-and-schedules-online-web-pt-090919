@@ -22,7 +22,6 @@ end
 
 def printer(batch_badge_creator)
   batch_badge_creator.each do |badge|
-    new_array1
     puts badge
     binding.pry
   end
