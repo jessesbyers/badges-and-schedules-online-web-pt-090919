@@ -21,12 +21,8 @@ def assign_rooms(array)
 end
 
 def printer(array)
-  new_array1 = batch_badge_creator
-  new_array2 = assign_rooms
-    new_array1.each do |array|
-      puts array
-      new_array2.each do |array|
-        puts array
-      end
+  array = [batch_badge_creator, assign_rooms].flatten
+    array.each do |badge|
+      puts badge
     end
 end
