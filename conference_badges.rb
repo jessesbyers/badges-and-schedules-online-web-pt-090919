@@ -22,7 +22,7 @@ end
 
 def printer(attendees)
   attendance_list = batch_badge_creator(attendees).concat assign_rooms(attendees)
-  attendance_list each do |info|
+  attendance_list.each do |info|
     puts info
   end
 end
