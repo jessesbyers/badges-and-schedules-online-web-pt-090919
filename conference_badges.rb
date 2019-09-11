@@ -20,6 +20,6 @@ def assign_rooms(array)
   new_array2
 end
 
-def printer(bat)
+def printer()
 
 end
