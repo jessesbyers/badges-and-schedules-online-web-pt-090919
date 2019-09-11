@@ -20,6 +20,9 @@ def assign_rooms(array)
   new_array2
 end
 
-def printer(array)
-  puts batch_badge_creator.concat(assign_rooms)
+def printer(attendees)
+  attendees.each do |batch_badge_creator, assign_rooms|
+  puts batch_badge_creator
+  puts assign_rooms
+end
 end
