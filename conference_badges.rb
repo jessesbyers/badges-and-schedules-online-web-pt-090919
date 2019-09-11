@@ -1,6 +1,6 @@
 require 'pry'
 
-def badge_maker(array)
+def badge_maker(name)
   array.each do |name|
     puts "Hello, my name is #{name}."
     binding.pry
